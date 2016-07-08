@@ -7,17 +7,17 @@ app.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', functio
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: '',
+    templateUrl: 'public/index.html',
     controller: ''
   })
   .state('about', {
     url: '/about',
-    templateUrl: '',
+    templateUrl: 'public/views/about.html',
     controller: ''
   })
   .state('contact', {
     url: '/contact',
-    templateUrl: '',
+    templateUrl: 'public/views/contact.html',
     controller: ''
   })
 
